@@ -33,7 +33,7 @@ public class MainActivity extends Activity implements OnClickListener {
 
     private void showImage() {             
 		ImageView imgView = (ImageView) findViewById(R.id.myimage);
-        imgView.setImageResource(mImageIds[image_index%5]);       
+        imgView.setImageResource(mImageIds[image_index]);       
 
     }
     public void onClick(View v) {
